@@ -1,0 +1,72 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/myexception.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 6,
+        "topLine": 1
+    },
+    {
+        "caretX": 15,
+        "caretY": 86,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/Graph.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    },
+    {
+        "caretX": 17,
+        "caretY": 8,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/Tourism.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 1
+    },
+    {
+        "caretX": 32,
+        "caretY": 91,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/Tourism.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 4,
+        "topLine": 109
+    },
+    {
+        "caretX": 15,
+        "caretY": 42,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/Graph.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 31
+    },
+    {
+        "caretX": 7,
+        "caretY": 14,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/myexception.h",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 5,
+        "topLine": 1
+    },
+    {
+        "caretX": 18,
+        "caretY": 2,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/InfoManagement/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 82
+    }
+]

@@ -1,0 +1,55 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Compress.cpp",
+            "line": 223,
+            "timestamp": "1682436505709"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Compress.cpp",
+            "line": 114,
+            "timestamp": "1682471889815"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Compress.cpp",
+            "line": 53,
+            "timestamp": "1682471961792"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Compress.cpp",
+            "line": 185,
+            "timestamp": "1682484381063"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Compress.cpp",
+            "line": 199,
+            "timestamp": "1682484515181"
+        }
+    ],
+    "timestamp": "1684127691906",
+    "watchvars": [
+        {
+            "expression": "*HC[i]",
+            "timestamp": "1682416819095"
+        },
+        {
+            "expression": "filename",
+            "timestamp": "1682417502591"
+        }
+    ]
+}

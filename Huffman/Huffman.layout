@@ -1,0 +1,52 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/Huffman/HuffmanTree.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 4,
+        "topLine": 52
+    },
+    {
+        "caretX": 22,
+        "caretY": 3,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/Huffman/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    },
+    {
+        "caretX": 16,
+        "caretY": 225,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/Huffman/Compress.cpp",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 202
+    },
+    {
+        "caretX": 11,
+        "caretY": 7,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/Huffman/HuffmanTree.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 4
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/Users/LIUJUN/OneDrive/桌面/数据结构实验/Huffman/Compress.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    }
+]

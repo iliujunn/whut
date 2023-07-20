@@ -1,0 +1,31 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Tourism.cpp",
+            "line": 94,
+            "timestamp": "1684149940601"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "Graph.cpp",
+            "line": 75,
+            "timestamp": "1684151236507"
+        }
+    ],
+    "timestamp": "1685338076455",
+    "watchvars": [
+        {
+            "expression": "*p",
+            "timestamp": "1684136863461"
+        },
+        {
+            "expression": "pathList->next",
+            "timestamp": "1684142782642"
+        }
+    ]
+}

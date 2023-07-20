@@ -1,0 +1,43 @@
+# Project: InfoManagement
+# Makefile created by Red Panda C++ 2.4
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = InfoManagement_private.res
+OBJ      = myexception.o Graph.o Tourism.o main.o $(RES)
+LINKOBJ  = myexception.o Graph.o Tourism.o main.o $(RES)
+CLEANOBJ  =  myexception.o Graph.o Tourism.o main.o InfoManagement_private.res InfoManagement.exe
+LIBS     =  -L"C:/Users/LIUJUN/OneDrive/×ÀÃæ/fmt-9.0.0/include/fmt"
+INCS     =  
+CXXINCS  =  -I"C:/Users/LIUJUN/OneDrive/×ÀÃæ/fmt-9.0.0/include/fmt" 
+BIN      = InfoManagement.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+myexception.o: myexception.cpp myexception.h
+	$(CPP) -c myexception.cpp -o myexception.o $(CXXFLAGS) 
+
+Graph.o: Graph.cpp myexception.h Graph.h
+	$(CPP) -c Graph.cpp -o Graph.o $(CXXFLAGS) 
+
+Tourism.o: Tourism.cpp Tourism.h
+	$(CPP) -c Tourism.cpp -o Tourism.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+main.o: main.cpp Tourism.h
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+InfoManagement_private.res: InfoManagement_private.rc 
+	$(WINDRES) -i InfoManagement_private.rc --input-format=rc -o InfoManagement_private.res -O coff 
+
